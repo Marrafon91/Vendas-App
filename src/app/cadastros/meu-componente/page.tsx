@@ -1,6 +1,5 @@
 interface MensagemProps {
-    mensagem: String;
-    
+    mensagem: String;    
 }
 
 const Mensagem: React.FC<MensagemProps> = (props: MensagemProps) => {
