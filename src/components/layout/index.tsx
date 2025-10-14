@@ -1,8 +1,12 @@
+import { Menu } from './menu'
+
+export { Menu } from './menu'
+
 export const Layout: React.FC = () => {
     return (
         <div className="app">
             <section className="main-content columns is-fullheight">
-                {/* {menu ficara aqui} */}
+                <Menu />
 
                 <div className="container column is-10">
                     <div className="section">

@@ -1,6 +1,6 @@
-import Head from "next/head"
 import 'bulma/css/bulma.css'
-import { Layout }  from 'components/layout'
+import { Layout } from 'components/layout'
+import Head from "next/head"
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Home: React.FC = () => {
       <title>Vendas App</title>
       <link rel="icon" href="/favicon.icon" />
       </Head>
-      <h1>TESTE DEV</h1>
+      
       <Layout />
     </div>
   )

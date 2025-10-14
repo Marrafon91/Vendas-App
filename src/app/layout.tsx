@@ -1,4 +1,4 @@
-
+import 'bulma/css/bulma.css'
 import "./globals.css";
 
 export default function RootLayout({
