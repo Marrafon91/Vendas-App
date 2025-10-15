@@ -9,8 +9,8 @@ const Home: React.FC = () => {
       <title>Vendas App</title>
       <link rel="icon" href="/favicon.icon" />
       </Head>
-      
-      <Layout />
+
+      <Layout />      
     </div>
   )
 }

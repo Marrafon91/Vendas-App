@@ -7,9 +7,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
-      <body>                
-        {children}        
+    <html lang="pt_br">
+      <head /> 
+      <body className='has-background-light'>
+        {children}
       </body>
     </html>
   );
