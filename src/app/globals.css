@@ -1,7 +1,5 @@
 
-body {
-  color: #000;
-  min-height: 100vh;  
-  background: #fff;
+body {  
+  min-height: 100vh;    
   font-family: Arial, Helvetica, sans-serif;  
 }
